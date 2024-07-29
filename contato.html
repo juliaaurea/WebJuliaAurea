@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="titulo">
+            <h1>CEFET-MG - Campus Varginha - Curso Técnico</h1>
+        </section>
+        <nav>
+            <a href="index.html">
+                <h1>
+                    Início
+                </h1>
+            </a>
+            <a href="curso.html">
+                <h1>Curso</h1>
+            </a>
+            <a href="faq.html">
+                <h1>
+                    FAQ
+                </h1>
+            </a>
+            <a href="contato.html">
+                <h1>
+                    Contato
+                </h1>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+
+                <legend>Contato</legend>
+
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail </label>
+                    <input type="email" name="email">
+                </div>
+
+                <div>
+                    <input type="radio" name="sexo" value="M" id="masculino">
+                    <label for="sexo">Masculino </label>
+
+                    <input type="radio" name="sexo" value="F" id="feminino">
+                    <label for="sexo">Feminino </label>
+                </div>
+
+                <div>
+                    <label for="estado">Estado/Cidade</label>
+                    <select name="estado" id="estado">
+                        <option value=""></option>
+                        <option value="MG">MG</option>
+                        <option value="SP">SP</option>
+                        <option value="AM">AM</option>
+                    </select>
+
+                    <input type="text" name="cidade" placeholder="Varginha">
+                </div>
+
+                <div>
+                    <label for="file">Selecione um arquivo</label>
+                    <input type="file" name="file" id="file" placeholder="Escolher arquivo">
+                </div>
+
+                <div>
+                    <label for="sugestao">Sugestão</label>
+                    <textarea name="sugestao" id="sugestao" cols="10" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <h1>@COPYLEFT</h1>
+
+    </footer>
+</body>
+
+</html>

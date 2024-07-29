@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --azul: #2c74e2;
+}
+
+
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    font-size: x-large;
+    text-shadow: 2px 2px black;
+    display: flex;
+    background-image: url("banner.jpeg");
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+nav{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+main{
+    display: flex;
+    min-height: calc(100vh - 215px);
+    justify-content: center;
+    align-items: center;
+}
+
+main section h2{
+    font-weight: normal;
+    padding: 1rem;
+}
+
+main section h1{
+    padding: 1rem;
+}
+
+main ol, ul {
+    font-size: x-large;
+    font-weight: 100;
+    padding: 0rem 3rem;
+}
+
+fieldset{
+    width:fit-content;
+    padding: 5px;
+}
+
+fieldset div textarea{
+    width: 99%;
+}
+
+fieldset div input{
+    border: 1px solid #d9d9d9;
+}
+
+fieldset div button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--azul);
+    color: white;
+    font-weight: 500;
+}
+
+footer{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: left;
+}
+
+.toldo{
+    display: block;
+    min-height: 100vh;
+}
+
+.toldo div, p, a{
+    padding: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.toldo div p{
+    font-weight: 900;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.materia {
+    text-align: left;
+}
+
+table, td, tr, th {
+    width: max-content;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+td {
+    text-align: center;
+}
+
